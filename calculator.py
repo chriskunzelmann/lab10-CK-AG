@@ -1,5 +1,15 @@
 import math
-def add(a, b): 
+def square_root(a):
+    try:
+        return math.sqrt(a)
+    except ValueError:
+        print("Number must be positive integer")
+        return None
+
+def hypotenuse(a, b):
+    return math.hypot(a,b)
+
+def add(a, b):
     return a+b
 
 def sub(a,b):
