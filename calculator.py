@@ -22,10 +22,10 @@ def div(a,b):
         return b/a
 
 def log(a,b):
-    if a<=0 or b<= 0:
+    if a<=0 or b<= 0 or a==1 :
         raise ValueError
         print("ValueError")
     else:
-        math.log(a,b)
+        return math.log(a,b)
 
 def exp(a,b): return pow(a,b)
