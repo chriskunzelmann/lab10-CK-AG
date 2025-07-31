@@ -1,11 +1,9 @@
 import math
 
 def square_root(a):
-    try:
-        return math.sqrt(a)
-    except ValueError:
-        print("Number must be positive integer")
-        return None
+    if a < 0:
+        raise ValueError("Cannot take the square root of a negative number.")
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
     return math.hypot(a,b)
