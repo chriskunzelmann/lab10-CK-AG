@@ -5,7 +5,6 @@ import unittest
 from calculator import *
 
 class TestCalculator(unittest.TestCase):
-<<<<<<< HEAD
     ######### Partner 2
     def test_add(self): # 3 assertions
         self.assertAlmostEqual(add(4,5),9)
@@ -13,8 +12,6 @@ class TestCalculator(unittest.TestCase):
     def test_subtract(self): # 3 assertions
         self.assertAlmostEqual(sub(6,5),1)
     # ##########################
-=======
->>>>>>> 610e85cff0029b2aa6717ba8a0dbf7ad1ddc0e40
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
@@ -27,7 +24,6 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(div(-10,100),-10)
         self.assertAlmostEqual(div(4,9),2.25)
 
-<<<<<<< HEAD
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
     #     # call division function inside, example:
