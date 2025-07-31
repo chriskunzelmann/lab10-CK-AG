@@ -1,7 +1,3 @@
-#https://github.com/chriskunzelmann/lab10-CK-AG.git
-#Partner 1: Christopher Kunzelmann
-#Partner 2: Angie Garcia
-
 import math
 
 def square_root(a):
